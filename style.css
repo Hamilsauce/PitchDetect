@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.app-button {
+  width: fit-content;
+  padding: 4px 8px;
+  color: #F7F7F7;
+  font-size: 18px;
+  font-weight: 800;
+  background: #2F3032;
+  border: 3px solid #F1F1F1;
+  filter: opacity(0.95);
+  border-radius: 6px;
+  box-shadow: 0 1px 5px 0px #00000060;
+}
+
+.app-button:active {
+  filter: brightness(0.8);
+}
+
+.active {
+  background: #A82222;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  background: #31393E;
+  color: #ECECEC;
+  overflow: hidden;
+}
+
+#app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+
+#app-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  overflow-y: scroll;
+}
+
+body {
+  font: 14pt 'Alike', sans-serif;
+}
+
+.droptarget {
+  background-color: #348781
+}
+
+div.confident {
+  color: black;
+}
+
+div.vague {
+  color: lightgrey;
+}
+
+#note {
+  display: inline-block;
+  font-size: 140px;
+}
+
+#detector {
+  display: grid;
+  grid-template-rows: 40px 1fr 40px;
+  grid-template-columns: 1fr;
+  gap: 0px;
+}
+
+#detector>* {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+#output {
+  width: 300px;
+  height: 42px;
+}
+
+#flat {
+  display: none;
+}
+
+#sharp {
+  display: none;
+}
+
+.flat #flat {
+  display: inline;
+}
+
+.sharp #sharp {
+  display: inline;
+}

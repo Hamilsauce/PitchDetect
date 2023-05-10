@@ -1,21 +1,44 @@
-The MIT License (MIT)
+The National Weather Service in Chicago has issued a
 
-Copyright (c) 2014 Chris Wilson
+* Severe Thunderstorm Warning for...
+Northwestern Will County in northeastern Illinois...
+Southeastern DuPage County in northeastern Illinois...
+Eastern Cook County in northeastern Illinois...
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+* Until 730 PM CDT.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+* At 628 PM CDT, a severe thunderstorm was located over Channahon,
+moving northeast at 50 mph.
+HAZARD...60 mph wind gusts.
+SOURCE...Radar indicated.
+IMPACT...Expect damage to roofs, siding, and trees.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* Locations impacted include...
+Chicago, Joliet, Cicero, Hammond, Bolingbrook, Orland Park, Tinley
+Park, Oak Lawn, Berwyn, Oak Park, Downers Grove, Romeoville,
+Plainfield, Calumet City, Woodridge, West Town, Chicago Lawn,
+Englewood, Austin and South Shore.
+Including the following interstates...
+I-55 between mile markers 249 and 294.
+I-57 between mile markers 343 and 358.
+I-80 between mile markers 124 and 155.
+I-90 between mile markers 101 and 107.
+I-94 between mile markers 43 and 70.
+I-290 between mile markers 18 and 29.
+I-294 between mile markers 43 and 70.
+I-355 between mile markers 1 and 15.
+Indiana I-90 between mile markers 1 and 2.
+This includes...  Argonne National Laboratory, Brookfield Zoo,
+Lincoln Park Zoo, Loyola University, SeatGeek Stadium, University of
+Chicago, University of St. Francis, Windy City Thunderbolts Baseball,
+Chicagoland Speedway...Route 66 Raceway, Hollywood Casino
+Amphitheatre, Hawthorne Park, Joliet Junior College, Joliet Slammers
+Baseball, Lewis University, Moraine Valley Community College,
+Northeastern Illinois University, Soldier Field, University of
+Illinois Chicago, Guaranteed Rate Field...IL Institute of Technology,
+Wrigley Field, The Loop, Museum of Science and Industry, Museum
+Campus, and Northerly Island.
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
