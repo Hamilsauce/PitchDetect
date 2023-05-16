@@ -2,15 +2,12 @@ class UI {
 
   constructor() {
     // this.root;
-    this.demoToggle.addEventListener('click', e => {
-
-
-    });
+    this.demoToggle.addEventListener('click', e => {});
   };
 
-  get display() {
+  get tuner() {
     return {
-      root: document.querySelector('#detector'),
+      display: document.querySelector('#detector'),
       pitch: document.querySelector('#pitch'),
       note: document.querySelector('#note'),
       detune: document.querySelector('#detune'),

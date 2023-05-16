@@ -108,6 +108,7 @@ function togglePlayback() {
     isPlaying = false;
 
     ui.demoToggle.classList.remove('active');
+    
     return "start";
   }
 
@@ -229,6 +230,7 @@ function updatePitch(time) {
     let pitch = ac;
     
     detectorElem.className = "confident";
+console.warn('pitch', pitch)
     pitchElem.innerText = Math.round(pitch);
 
     var note = noteFromPitch(pitch);

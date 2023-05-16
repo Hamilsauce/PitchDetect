@@ -23,13 +23,13 @@
       </div>
       <div id="app-header-right">R</div>
     </header>
-    
+
     <section id="app-body">
       <div class="container">
 
         <div class="control-group">
-          <button class="app-button" id="detect-toggle"  _onclick="startPitchDetect();">Start</button>
-          <button class="app-button" id="demo-toggle" _onclick="togglePlayback()">use demo audio</button>
+          <button class="app-button" id="detect-toggle">Start</button>
+          <button class="app-button" id="demo-toggle">Demo Audio</button>
         </div>
 
         <!-- <div class="control-group">
@@ -38,7 +38,7 @@
           <button onclick="updatePitch(0);">sample</button>
         </div> -->
       </div>
-   
+
       <div class="container">
         <section id="detector" class="vague">
 
@@ -50,8 +50,6 @@
             <span id="note">--</span>
           </div>
 
-          <!-- <canvas id="output" width=300 height=42></canvas> -->
-
           <div id="detune">
             <span id="detune_amt">--</span>
             <span id="flat">cents &#9837;</span>
@@ -62,7 +60,7 @@
 
       </div>
     </section>
-  
+
     <footer id="app-footer">
       <div class="container">
         footer
@@ -70,7 +68,7 @@
     </footer>
   </div>
   <script src="./script.js" type="module"></script>
-    <script type="module" src="./js/pitchdetect.js"></script>
+  <script type="module" src="./js/pitchdetect.js"></script>
 
 </body>
 
