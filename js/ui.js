@@ -2,7 +2,9 @@ class UI {
 
   constructor() {
     // this.root;
-    this.demoToggle.addEventListener('click', e => {});
+    document.body.addEventListener('touchstart', e => {
+      console.log('e', e.touches[0].force)
+    });
   };
 
   get tuner() {
@@ -15,15 +17,15 @@ class UI {
     };
   }
 
-  get detectorElem() { return document.querySelector('#detector'); }
+  get detector() { return document.querySelector('#detector'); }
 
-  get pitchElem() { return document.querySelector('#pitch'); }
+  get pitch() { return document.querySelector('#pitch'); }
 
-  get noteElem() { return document.querySelector('#note'); }
+  get note() { return document.querySelector('#note'); }
 
-  get detuneElem() { return document.querySelector('#detune_amt'); }
+  get detune() { return document.querySelector('#detune_amt'); }
 
-  get detuneAmount() { return document.querySelector('#detune_amt'); }
+  // get detuneAmount() { return document.querySelector('#detune_amt'); }
 
   get detectToggle() { return document.querySelector('#detect-toggle'); }
 
